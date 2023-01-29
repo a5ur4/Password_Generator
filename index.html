@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <hr class="line">
+        <hr class="line_middle">
+        <div id="head">
+            <h2>Password Generator</h2>
+            <h3>Made by - _a5ur4</h3>
+            <a href="https://github.com/a5ur4" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="">
+            </a>
+        </div>
+        <hr class="line_middle">
+        <hr class="line">
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <main>
+        <input type="text" name="password" id="password" placeholder="Press create..." readonly>
+        <br>
+        <br>
+        <div id="box">
+            <button onclick="generatePassword()">
+                <h3>Create</h3>
+            </button>
+            <button onclick="copyPassword()">
+                <h3>Copy</h3>
+            </button>
+        </div>
+    </main>
+</body>
+</html>
